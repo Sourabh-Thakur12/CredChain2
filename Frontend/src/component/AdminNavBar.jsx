@@ -26,7 +26,7 @@ export default function AdminNavBar() {
 
 
       <div className="flex items-center justify-center space-x-12 bg-[#4361EE] text-white px-6 py-4 text-medium font-medium">
-        <Link to="/AdminDashboard">
+        <Link to="/">
         <button className="hover:underline">Dashboard</button>
         </Link>
         <button className="hover:underline">Overview</button>

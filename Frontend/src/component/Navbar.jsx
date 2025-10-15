@@ -26,7 +26,7 @@ export default function Navbar() {
           <div className="hidden sm:flex space-x-6">
             <a href="#" className="hover:text-gray-200">Home</a>
             <Link to="/Verify"><button className="hover:text-gray-200">Verify</button></Link>
-            <a href="#" className="hover:text-gray-200">My Certificates</a>
+            <Link to="/StudentDashboard" ><button className="hover:text-gray-200">My Certificates</button></Link>
             <a href="#" className="hover:text-gray-200">Progress</a>
           </div>
 
@@ -44,7 +44,7 @@ export default function Navbar() {
         <div className="sm:hidden px-2 pb-3 space-y-2 bg-[#4361EE]">
           <a href="#" className="block hover:bg-blue-700   rounded-md px-3 py-2">Home</a>
           <Link to="/Verify"><button className="block hover:bg-blue-700  rounded-md px-3 py-2">Verify</button></Link>
-          <a href="#" className="block hover:bg-blue-700  rounded-md px-3 py-2">My Certificates</a>
+          <Link to="/StudentDashboard" ><button className="block hover:bg-blue-700  rounded-md px-3 py-2">My Certificates</button></Link>
           <a href="#" className="block hover:bg-blue-700  rounded-md px-3 py-2">Progress</a>
         </div>
       )}
